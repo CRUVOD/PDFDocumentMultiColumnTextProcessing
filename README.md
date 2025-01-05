@@ -11,4 +11,5 @@ PyMuPDF-Fitz have a very useful function to extract text block location, and so 
 Using an OCR approach to extract text is significantly slower than extracting from the data present within the PDF directly, however this is done because a significant percentage PDF documents I was dealing with had bad data decay and corruption as well as being almost exclusively in Chinese, and so directly retrieving text information in the PDF resulted in too many unusable data. And so, an OCR image scanning approach was used through PaddleOCR to sidestep these issues.
 
 PyMuPDF repo: https://github.com/pymupdf/PyMuPDF
+
 PaddleOCR repo: https://github.com/PaddlePaddle/PaddleOCR
